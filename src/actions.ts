@@ -6,6 +6,9 @@ export const sadButtonClicked = {
     type: 'sad button clicked'
 }
 
-export const ClearButtonClicked = {
-    type: 'clear button clicked'
+export const HappyClearButtonClicked = {
+    type: 'happy clear button clicked'
+}
+export const SadClearButtonClicked = {
+    type: 'sad clear button clicked'
 }
