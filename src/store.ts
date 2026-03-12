@@ -15,6 +15,8 @@ const reducer = (currentState: State = initialState, action: Action): State => {
         return { ...currentState, happyCount: currentState.happyCount + 1 };
     } else if (action.type === "sad button clicked") {
         return { ...currentState, sadCount: currentState.sadCount + 1 };
+    } else if (action.type === "clear button clicked") {
+        return { ...currentState, sadCount: 0, happyCount: 0 };
     } else {
         return currentState;
     }
